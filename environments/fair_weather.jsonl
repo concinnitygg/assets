@@ -1,0 +1,5 @@
+// Late-morning sun with scattered cumulus drifting on a light breeze. Include one environment per application.
+["DirectionalLight",{"direction":[-0.5,0.65,0.55],"color":[1.0,0.98,0.95],"intensity":3.2}]
+["Cloud",{"$id":"env_cumulus","base":800.0,"thickness":1300.0,"coverage":0.42,"towering":0.65,"feature_size":2600.0,"seed":7}]
+["Atmosphere",{"clouds":["env_cumulus"]}]
+["Wind",{"direction":[1.0,0.3],"strength":3.0,"gustiness":0.5}]

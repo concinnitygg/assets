@@ -1,0 +1,5 @@
+// A low evening sun under streaks of high cirrus. Include one environment per application.
+["DirectionalLight",{"direction":[-0.95,0.09,0.3],"color":[1.0,0.97,0.92],"intensity":3.2}]
+["Cloud",{"$id":"env_cirrus","base":6000.0,"thickness":300.0,"coverage":0.5,"towering":0.0,"density":0.004,"feature_size":9000.0,"detail_size":300.0,"wind_drift":4.0,"stretch":7.0,"seed":21}]
+["Atmosphere",{"mie_scattering":[0.006,0.006,0.006],"clouds":["env_cirrus"]}]
+["Wind",{"direction":[0.6,1.0],"strength":2.0,"gustiness":0.3}]

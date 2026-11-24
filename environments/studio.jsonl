@@ -1,0 +1,5 @@
+// Neutral three-point lighting with no sky, for presenting props. Include one environment per application.
+["DirectionalLight",{"direction":[-0.6,0.7,0.5],"color":[1.0,0.96,0.9],"intensity":2.4}]
+["DirectionalLight",{"direction":[0.8,0.35,0.4],"color":[0.8,0.88,1.0],"intensity":0.6}]
+["DirectionalLight",{"direction":[0.2,0.6,-0.8],"color":[0.92,0.94,1.0],"intensity":1.2}]
+["EnvironmentMap",{"generator":"sky","background":false,"prefilter_face_size":128}]

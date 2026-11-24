@@ -1,0 +1,5 @@
+// A gray, low stratus sheet with a fresh wind: soft light and no hard shadows. Include one environment per application.
+["DirectionalLight",{"direction":[-0.3,0.85,0.3],"color":[1.0,0.98,0.95],"intensity":3.2}]
+["Cloud",{"$id":"env_stratus","base":700.0,"thickness":800.0,"coverage":0.93,"towering":0.15,"density":0.03,"feature_size":3000.0,"seed":4}]
+["Atmosphere",{"clouds":["env_stratus"]}]
+["Wind",{"direction":[1.0,-0.2],"strength":7.0,"gustiness":0.7,"gust_scale":30.0}]

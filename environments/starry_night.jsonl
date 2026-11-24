@@ -1,0 +1,5 @@
+// A clear, moonlit night with the Milky Way overhead. Include one environment per application.
+// Exposure: give the application's GraphicsConfig {"exposure":{"auto":true,"auto_max_ev":24.0,"auto_night_ev":-3.0,"night_vision":1.0}}.
+["DirectionalLight",{"direction":[-0.4,-0.6,0.3],"color":[1.0,0.98,0.95],"intensity":3.2}]
+["Atmosphere",{}]
+["NightSky",{"moon_start_deg":165.0,"galaxies":10,"milky_way_turn_deg":120.0,"seed":5}]

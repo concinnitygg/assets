@@ -1,0 +1,1 @@
+["ParticleEmitter",{"texture":"tex_puff","position":[0.0,10.0,0.0],"direction":[0.0,-1.0,0.0],"spread_deg":60.0,"speed_min":0.5,"speed_max":1.5,"lifetime_min":8.0,"lifetime_max":12.0,"gravity":[0.15,-0.4,0.05],"spawn_rate":250.0,"max_particles":3000,"size_start":0.035,"size_end":0.03,"size_variance":0.5,"color_start":[1.0,1.0,1.0,0.9],"color_end":[1.0,1.0,1.0,0.0],"lit":true}]

@@ -1,0 +1,8 @@
+// A four-minute day: the sun rises, crosses the sky and sets, then the moon and stars come out. Include one environment per application.
+// Exposure: give the application's GraphicsConfig {"exposure":{"auto":true,"auto_max_ev":24.0,"auto_night_ev":-3.0,"night_vision":1.0}}.
+["DirectionalLight",{"direction":[1.0,0.0,0.35],"color":[1.0,0.98,0.95],"intensity":3.2}]
+["SkyRotation",{"axis":[0.0,0.0,-1.0],"degrees_per_second":1.5,"angle_deg":25.0}]
+["Cloud",{"$id":"env_cycle_cumulus","base":900.0,"thickness":1200.0,"coverage":0.35,"towering":0.55,"feature_size":2800.0,"seed":12}]
+["Atmosphere",{"clouds":["env_cycle_cumulus"]}]
+["NightSky",{"moon_start_deg":150.0,"galaxies":6}]
+["Wind",{"direction":[1.0,0.5],"strength":3.0}]
